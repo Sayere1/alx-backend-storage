@@ -1,0 +1,2 @@
+// script that deletes all doc with name="Holberton school" in d collection sch
+db.school.deleteMany({ "name" : "Holberton school" })
