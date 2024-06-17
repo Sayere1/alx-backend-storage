@@ -1,0 +1,2 @@
+//  lists all doc in d collection sch: passed d db name as opt of mongo command
+db.school.find()
