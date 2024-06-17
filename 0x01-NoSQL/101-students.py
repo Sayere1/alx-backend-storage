@@ -3,7 +3,7 @@
 
 
 def top_students(mongo_collection):
-    '''mongo_collection will be the pymongo collection object'''
+    '''mongo_collection will be the pymongo collection object.'''
     students = mongo_collection.aggregate(
         [
             {

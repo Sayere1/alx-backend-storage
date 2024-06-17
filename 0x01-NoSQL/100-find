@@ -1,2 +1,2 @@
-// script that lists all doc with name startin by Holberton in d collection sch
+// script that lists all doc wit name startin by Holberton in d collection sch.
 db.school.find({"name": /^Holberton/ })
